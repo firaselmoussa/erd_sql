@@ -1,3 +1,3 @@
 SELECT *
 FROM Room
-WHERE capacity > 99
+WHERE capacity > 99;

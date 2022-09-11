@@ -1,3 +1,3 @@
 SELECT *
 FROM students
-Where COUNT(courses_enrolled) < 1
+Where COUNT(courses_enrolled) < 1;
