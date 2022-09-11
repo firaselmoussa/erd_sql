@@ -1,5 +1,4 @@
-
-select * 
-from course
-Join enrolled_students on enrolled_student.id = student.id
-Where student.major = 'BIF';
+SELECT * 
+FROM course
+GROUP BY enrolled_courses
+HAVING student.major = 'BIF';

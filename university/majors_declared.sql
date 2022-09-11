@@ -1,3 +1,3 @@
-SELECT COUNT(Major)
-FROM Student  
-Join Major on Major.id = Student.Movie_id; 
+SELECT COUNT(student)
+FROM Students  
+GROUP BY major;
